@@ -1,20 +1,4 @@
-/* Scarecrow */
-img {
-  position: absolute;
-  left: 5.35%;
-  right: 57.21%;
-  top: 24.54%;
-  bottom: 34.03%;
-}
-
-/* 404 not found */
 #headerNotFound {
-  position: absolute;
-  width: 133px;
-  height: 25px;
-  left: 77px;
-  top: 40px;
-
   font-family: Inconsolata;
   font-style: normal;
   font-weight: bold;
@@ -26,23 +10,51 @@ img {
   color: #333333;
 }
 
-/* I have bad news for you */
-
-#badNews {
-  position: absolute;
-  width: 586px;
-  height: 190px;
-  left: 735px;
-  top: 265px;
-
+#labelBadNews {
   font-family: Space Mono;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
   line-height: 95px;
   letter-spacing: -0.035em;
+  color: #333333;
+}
 
-  /* Gray 1 */
+#labelExplanation {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+
+#btnHomePage {
+  width: 216px;
+  height: 68px;
+  background: #333333;
+}
+
+#labelBackToHomepage {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+#labelCopyRight {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
 
   color: #333333;
 }

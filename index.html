@@ -1,13 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>404</title>
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Space+Mono|Montserrat" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
-    <label id="headerNotFound">404 not found</label>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <img src="images/scarecrow_scaled.png" alt="404-scarecrow" />
-    <label id="badNews">I have bad news for you</label>
+    <div class="container">
+      <div class="row mb-5 p-2">
+        <label id="headerNotFound">404 not found</label>
+      </div>
+      <div class="row mb-5">
+        <div class="col mr-5">
+          <img src="images/scarecrow_scaled.png" alt="404-scarecrow" />
+        </div>
+        <div class="col">
+          <div class="row">
+            <label id="labelBadNews">I have bad news for you</label>
+          </div>
+          <div class="row mb-5">
+            <label id="labelExplanation">The page you are looking for might be removed or is temporarily unavailable</label>
+          </div>
+          <div class="row mb-5">
+            <button id="btnHomePage">
+              <label id="labelBackToHomepage">Back to homepage</label>
+            </button>
+          </div>
+        </div>
+      </div>
+      <br />
+      <footer>
+        <div class="text-center">
+          <label id="labelCopyRight">Nick Disibio @ DevChallenges.io</label>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
